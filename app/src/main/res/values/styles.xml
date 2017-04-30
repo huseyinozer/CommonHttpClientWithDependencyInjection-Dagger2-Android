@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SuccessButton" parent="AppTheme">
+        <item name="colorAccent">#42d603</item>
+        <item name="colorButtonNormal">#42d603</item>
+    </style>
+
+    <style name="ErrorButton" parent="AppTheme">
+        <item name="colorAccent">#d64243</item>
+        <item name="colorButtonNormal">#d64243</item>
+    </style>
+
+</resources>

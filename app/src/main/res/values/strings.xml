@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Sample HttpClient With DI</string>
+    <string name="success_request">SUCCESS REQUEST</string>
+    <string name="error_request">ERROR REQUEST</string>
+</resources>

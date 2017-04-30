@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="me.huseyinozer.samplehttpclientwithdi.screens.main.MainActivity">
+
+    <TextView
+        android:id="@+id/message_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Response"
+        android:textSize="18sp"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/button_success_request"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/success_request"
+        android:textColor="@android:color/white"
+        android:theme="@style/SuccessButton" />
+
+    <Button
+        android:id="@+id/button_error_request"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/error_request"
+        android:textColor="@android:color/white"
+        android:theme="@style/ErrorButton" />
+
+</LinearLayout>
